@@ -18,6 +18,8 @@
 		6195879A1BD893C500D9E42E /* DropboxDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619587991BD893C500D9E42E /* DropboxDemoUITests.swift */; };
 		619587AC1BD8983300D9E42E /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619587AB1BD8983300D9E42E /* CreateAccountRootViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		619587AE1BD8A5E500D9E42E /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619587AD1BD8A5E500D9E42E /* SignInRootViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		61A457AC1BDDF40700CC2321 /* SettingsSignedIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A457AB1BDDF40700CC2321 /* SettingsSignedIn.swift */; settings = {ASSET_TAGS = (); }; };
+		61A457AE1BDDF50400CC2321 /* FavoritesScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A457AD1BDDF50400CC2321 /* FavoritesScrollView.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		6195879B1BD893C500D9E42E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		619587AB1BD8983300D9E42E /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
 		619587AD1BD8A5E500D9E42E /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
+		61A457AB1BDDF40700CC2321 /* SettingsSignedIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsSignedIn.swift; sourceTree = "<group>"; };
+		61A457AD1BDDF50400CC2321 /* FavoritesScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +112,9 @@
 				619587791BD893C500D9E42E /* AppDelegate.swift */,
 				6195877B1BD893C500D9E42E /* ViewController.swift */,
 				6195877D1BD893C500D9E42E /* Main.storyboard */,
+				61A457AD1BDDF50400CC2321 /* FavoritesScrollView.swift */,
 				612DAC171BDDDDE800EB861A /* SettingScreen.swift */,
+				61A457AB1BDDF40700CC2321 /* SettingsSignedIn.swift */,
 				612DAC151BDDD24F00EB861A /* TermsAndConditions.swift */,
 				619587AD1BD8A5E500D9E42E /* SignInRootViewController.swift */,
 				619587801BD893C500D9E42E /* Assets.xcassets */,
@@ -271,6 +277,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				612DAC181BDDDDE800EB861A /* SettingScreen.swift in Sources */,
+				61A457AE1BDDF50400CC2321 /* FavoritesScrollView.swift in Sources */,
+				61A457AC1BDDF40700CC2321 /* SettingsSignedIn.swift in Sources */,
 				619587AE1BD8A5E500D9E42E /* SignInRootViewController.swift in Sources */,
 				612DAC161BDDD24F00EB861A /* TermsAndConditions.swift in Sources */,
 				619587AC1BD8983300D9E42E /* CreateAccountRootViewController.swift in Sources */,
