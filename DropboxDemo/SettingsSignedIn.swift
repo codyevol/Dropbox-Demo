@@ -26,6 +26,8 @@ class SettingsSignedIn: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func SignOutExisting(sender: AnyObject) {
+    }
 
     /*
     // MARK: - Navigation

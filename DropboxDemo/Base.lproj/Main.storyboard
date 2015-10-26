@@ -343,6 +343,14 @@
                                 <autoresizingMask key="autoresizingMask"/>
                                 <animations/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="SMD-pq-VRQ">
+                                <rect key="frame" x="6" y="518" width="306" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <connections>
+                                    <segue destination="nlL-mt-AwV" kind="modal" animates="NO" id="mqQ-lE-GFP"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -350,7 +358,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zgr-U9-xpN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2835" y="1811"/>
+            <point key="canvasLocation" x="2674" y="1835"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="dOi-DA-g3b">
@@ -918,6 +926,15 @@
                                         <autoresizingMask key="autoresizingMask"/>
                                         <animations/>
                                     </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ndG-gQ-5Db">
+                                        <rect key="frame" x="0.0" y="374" width="320" height="144"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <connections>
+                                            <action selector="SignOutExisting:" destination="7wJ-xt-plf" eventType="touchUpInside" id="d0g-7r-UeS"/>
+                                            <segue destination="vyJ-hV-cjK" kind="modal" animates="NO" id="wBt-YF-B1J"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <animations/>
                             </scrollView>
@@ -933,7 +950,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dcA-zq-Edp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4830" y="4729"/>
+            <point key="canvasLocation" x="4842" y="4725"/>
         </scene>
         <!--Favorites-->
         <scene sceneID="eNx-bp-qXr">
@@ -987,8 +1004,8 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="oqR-Py-UEU"/>
-        <segue reference="xkk-pJ-6sH"/>
-        <segue reference="M57-Nz-KPP"/>
+        <segue reference="wBt-YF-B1J"/>
+        <segue reference="mqQ-lE-GFP"/>
         <segue reference="Q3g-vW-9tp"/>
     </inferredMetricsTieBreakers>
 </document>
