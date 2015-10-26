@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		612DAC161BDDD24F00EB861A /* TermsAndConditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612DAC151BDDD24F00EB861A /* TermsAndConditions.swift */; settings = {ASSET_TAGS = (); }; };
+		612DAC181BDDDDE800EB861A /* SettingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612DAC171BDDDDE800EB861A /* SettingScreen.swift */; settings = {ASSET_TAGS = (); }; };
 		6195877A1BD893C500D9E42E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619587791BD893C500D9E42E /* AppDelegate.swift */; };
 		6195877C1BD893C500D9E42E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6195877B1BD893C500D9E42E /* ViewController.swift */; };
 		6195877F1BD893C500D9E42E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6195877D1BD893C500D9E42E /* Main.storyboard */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		612DAC151BDDD24F00EB861A /* TermsAndConditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsAndConditions.swift; sourceTree = "<group>"; };
+		612DAC171BDDDDE800EB861A /* SettingScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingScreen.swift; sourceTree = "<group>"; };
 		619587761BD893C500D9E42E /* DropboxDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropboxDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		619587791BD893C500D9E42E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6195877B1BD893C500D9E42E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +108,8 @@
 				619587791BD893C500D9E42E /* AppDelegate.swift */,
 				6195877B1BD893C500D9E42E /* ViewController.swift */,
 				6195877D1BD893C500D9E42E /* Main.storyboard */,
+				612DAC171BDDDDE800EB861A /* SettingScreen.swift */,
+				612DAC151BDDD24F00EB861A /* TermsAndConditions.swift */,
 				619587AD1BD8A5E500D9E42E /* SignInRootViewController.swift */,
 				619587801BD893C500D9E42E /* Assets.xcassets */,
 				619587821BD893C500D9E42E /* LaunchScreen.storyboard */,
@@ -264,7 +270,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				612DAC181BDDDDE800EB861A /* SettingScreen.swift in Sources */,
 				619587AE1BD8A5E500D9E42E /* SignInRootViewController.swift in Sources */,
+				612DAC161BDDD24F00EB861A /* TermsAndConditions.swift in Sources */,
 				619587AC1BD8983300D9E42E /* CreateAccountRootViewController.swift in Sources */,
 				6195877C1BD893C500D9E42E /* ViewController.swift in Sources */,
 				6195877A1BD893C500D9E42E /* AppDelegate.swift in Sources */,
@@ -492,6 +500,7 @@
 				619587A01BD893C500D9E42E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		619587A11BD893C500D9E42E /* Build configuration list for PBXNativeTarget "DropboxDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +509,7 @@
 				619587A31BD893C500D9E42E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		619587A41BD893C500D9E42E /* Build configuration list for PBXNativeTarget "DropboxDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +518,7 @@
 				619587A61BD893C500D9E42E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
