@@ -19,6 +19,6 @@ Completed user stories:
 
 Walkthrough of all user stories:
 
-![Video Walkthrough](dropbox.gif)
+![Video Walkthrough](DropBoxDemo.gif)
 
 
