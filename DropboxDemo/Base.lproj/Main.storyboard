@@ -160,13 +160,15 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="R8V-ZT-ewI"/>
+                    <navigationItem key="navigationItem" id="R8V-ZT-ewI">
+                        <barButtonItem key="backBarButtonItem" title="Welcome" id="Cr2-fX-JHV"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S8T-sd-LI4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2254" y="347"/>
         </scene>
-        <!--View Controller-->
+        <!--New Account-->
         <scene sceneID="T4g-Q1-4eN">
             <objects>
                 <viewController id="X6P-gc-jti" sceneMemberID="viewController">
@@ -191,7 +193,9 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="uwa-sE-MVb"/>
+                    <navigationItem key="navigationItem" title="New Account" id="uwa-sE-MVb">
+                        <barButtonItem key="backBarButtonItem" title="Welcome" id="ZBQ-u8-JYb"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="t2X-QV-YyV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -253,7 +257,7 @@
             </objects>
             <point key="canvasLocation" x="2254" y="1091"/>
         </scene>
-        <!--View Controller-->
+        <!--Dropbox-->
         <scene sceneID="eEz-U2-7nG">
             <objects>
                 <viewController id="nlL-mt-AwV" sceneMemberID="viewController">
@@ -286,7 +290,9 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="3V5-ji-flR"/>
+                    <navigationItem key="navigationItem" title="Dropbox" id="3V5-ji-flR">
+                        <barButtonItem key="backBarButtonItem" title="Welcome" id="kIn-4L-h3W"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xOW-NH-bgP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -360,7 +366,7 @@
             </objects>
             <point key="canvasLocation" x="2674" y="1835"/>
         </scene>
-        <!--View Controller-->
+        <!--New Account-->
         <scene sceneID="dOi-DA-g3b">
             <objects>
                 <viewController id="YAS-tT-CvV" sceneMemberID="viewController">
@@ -385,13 +391,15 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="mhb-dE-5CM"/>
+                    <navigationItem key="navigationItem" title="New Account" id="mhb-dE-5CM">
+                        <barButtonItem key="backBarButtonItem" title="Welcome" id="i7K-Z2-Z6w"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OAQ-d8-Zcz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3092" y="346"/>
         </scene>
-        <!--View Controller-->
+        <!--New Account-->
         <scene sceneID="SNb-Kp-Xlx">
             <objects>
                 <viewController id="aOl-Ac-1tf" sceneMemberID="viewController">
@@ -416,10 +424,13 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" title="New Account" id="OcO-uX-vFf">
+                        <barButtonItem key="backBarButtonItem" title="Welcome" id="Fgj-KI-ZIr"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ebY-WS-oLU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3445" y="347"/>
+            <point key="canvasLocation" x="3483" y="347"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="OXj-AR-giJ">
@@ -451,10 +462,10 @@
             </objects>
             <point key="canvasLocation" x="3827" y="347"/>
         </scene>
-        <!--View Controller-->
+        <!--Welcome Back Btn-->
         <scene sceneID="oSd-9l-xp3">
             <objects>
-                <viewController id="cN1-lo-clw" sceneMemberID="viewController">
+                <viewController id="cN1-lo-clw" customClass="WelcomeBackBtn" customModule="DropboxDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cR0-Fb-3rT">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -470,6 +481,14 @@
                                 <animations/>
                                 <connections>
                                     <segue destination="gzB-Tt-sCX" kind="modal" animates="NO" id="DfV-Tc-CcG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Som-53-hd4">
+                                <rect key="frame" x="7" y="20" width="110" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <connections>
+                                    <action selector="BackWelcome:" destination="cN1-lo-clw" eventType="touchUpInside" id="0dQ-1P-he5"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -927,7 +946,7 @@
                                         <animations/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ndG-gQ-5Db">
-                                        <rect key="frame" x="0.0" y="374" width="320" height="144"/>
+                                        <rect key="frame" x="0.0" y="376" width="320" height="144"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
                                         <connections>
@@ -1004,8 +1023,8 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="oqR-Py-UEU"/>
-        <segue reference="wBt-YF-B1J"/>
-        <segue reference="mqQ-lE-GFP"/>
+        <segue reference="Rhu-sf-tbO"/>
         <segue reference="Q3g-vW-9tp"/>
+        <segue reference="wBt-YF-B1J"/>
     </inferredMetricsTieBreakers>
 </document>

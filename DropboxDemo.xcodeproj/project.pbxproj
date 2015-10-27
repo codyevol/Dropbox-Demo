@@ -20,6 +20,7 @@
 		619587AE1BD8A5E500D9E42E /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619587AD1BD8A5E500D9E42E /* SignInRootViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		61A457AC1BDDF40700CC2321 /* SettingsSignedIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A457AB1BDDF40700CC2321 /* SettingsSignedIn.swift */; settings = {ASSET_TAGS = (); }; };
 		61A457AE1BDDF50400CC2321 /* FavoritesScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A457AD1BDDF50400CC2321 /* FavoritesScrollView.swift */; settings = {ASSET_TAGS = (); }; };
+		61A457B01BDF120200CC2321 /* WelcomeBackBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A457AF1BDF120200CC2321 /* WelcomeBackBtn.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		619587AD1BD8A5E500D9E42E /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
 		61A457AB1BDDF40700CC2321 /* SettingsSignedIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsSignedIn.swift; sourceTree = "<group>"; };
 		61A457AD1BDDF50400CC2321 /* FavoritesScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesScrollView.swift; sourceTree = "<group>"; };
+		61A457AF1BDF120200CC2321 /* WelcomeBackBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeBackBtn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				619587821BD893C500D9E42E /* LaunchScreen.storyboard */,
 				619587851BD893C500D9E42E /* Info.plist */,
 				619587AB1BD8983300D9E42E /* CreateAccountRootViewController.swift */,
+				61A457AF1BDF120200CC2321 /* WelcomeBackBtn.swift */,
 			);
 			path = DropboxDemo;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				612DAC181BDDDDE800EB861A /* SettingScreen.swift in Sources */,
+				61A457B01BDF120200CC2321 /* WelcomeBackBtn.swift in Sources */,
 				61A457AE1BDDF50400CC2321 /* FavoritesScrollView.swift in Sources */,
 				61A457AC1BDDF40700CC2321 /* SettingsSignedIn.swift in Sources */,
 				619587AE1BD8A5E500D9E42E /* SignInRootViewController.swift in Sources */,
